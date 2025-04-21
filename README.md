@@ -67,6 +67,17 @@ The DH table is constructed using the following four parameters for each joint:
 
 👉 [`Universal Robots`](https://www.universal-robots.com/articles/ur/application-installation/dh-parameters-for-calculations-of-kinematics-and-dynamics/) – refer for more information.
 
+**ROS Controllers**
+🕹️ This (ur5_gripper_controllers.yaml) YAML configuration file defines the ROS controllers used for simulating UR5 arm and Robotiq gripper.
+
+The UR5 is controlled through an effort-based JointTrajectoryController, where precise PID gains are tuned for each joint to achieve smooth motion.
+
+For the gripper, a separate position-based JointTrajectoryController manages the Robotiq 85’s finger movement, ensuring stable grasping operations.
+
+⚠️ Note: The Gazebo simulation is intentionally launched in a paused state to allow all components and controllers to initialize properly before starting.
+
+✅ Remember to manually unpause the simulation in the Gazebo GUI once everything is loaded.
+
 ## ⚙️ Execution: Follow the steps to launch and run the repository. 🚀
 - Open a new terminal on your laptop (navigate to ~/path_to_your_workspace/src), 
   and run the following command to initialize the Gazebo and Rviz with the UR5 arm:
