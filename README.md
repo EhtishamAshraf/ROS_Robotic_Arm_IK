@@ -68,6 +68,7 @@ The DH table is constructed using the following four parameters for each joint:
 👉 [`Universal Robots`](https://www.universal-robots.com/articles/ur/application-installation/dh-parameters-for-calculations-of-kinematics-and-dynamics/) – refer for more information.
 
 **ROS Controllers**
+
 🕹️ This (ur5_gripper_controllers.yaml) YAML configuration file defines the ROS controllers used for simulating UR5 arm and Robotiq gripper.
 
 The UR5 is controlled through an effort-based JointTrajectoryController, where precise PID gains are tuned for each joint to achieve smooth motion.
