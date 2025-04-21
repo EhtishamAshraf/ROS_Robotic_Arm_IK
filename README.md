@@ -1,6 +1,8 @@
 # 🦾 UR5 Inverse Kinematics using MoveIT in ROS
 This repository contains a MoveIt configuration package for controlling a Universal Robots UR5 robotic arm equipped with a Robotiq 85 2-finger gripper. It includes a Python-based implementation for Inverse Kinematics (IK) to plan and execute precise motion trajectories. 
+
 The main contribuation of this repo is a custom package named "UR5_control" along with a MoveIt configuration package called "ur5_gripper_moveit_config". 
+
 👉 Gazebo is being used for simulation of the arm. 🤖🛠
 
 ##### 📺 Demo Video
