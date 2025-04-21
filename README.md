@@ -7,7 +7,7 @@ The main contribuation of this repo is a custom package named **"UR5_control"** 
 
 ##### 📺 Demo Video
 You can watch the demo video of the arm in action by clicking on the below image:
-[![Watch the video](https://github.com/EhtishamAshraf/ROS_Robotic_Arm_IK/blob/60bff498d70ef3fdcbd5e8199567287aac43b96b/ur5_control/Images/Gazebo.png)
+[![Watch the video](https://github.com/EhtishamAshraf/ROS_Robotic_Arm_IK/blob/60bff498d70ef3fdcbd5e8199567287aac43b96b/ur5_control/Images/Gazebo.png)](https://youtu.be/ApKQkkW58wY)
 
 > In the first half of the video, I am controlling the gripper and the arm group using MoveIt rviz Gui, and in the second half python is being used for controlling the arm.
 
@@ -37,7 +37,7 @@ Inverse Kinematics is the reverse process of Forward Kinematics. Given the desir
 
 **Denavit-Hartenberg (DH) Table**
 
-The image below shows the frames attached to each joint of the Eva arm.
+The image below shows the frames attached to each joint of the UR5 arm.
 
    • A dot indicates a direction inward (into the plane), and a cross indicates the direction is outward.
 
