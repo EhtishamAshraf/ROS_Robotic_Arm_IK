@@ -65,7 +65,7 @@ The DH table is constructed using the following four parameters for each joint:
 
    If the rotation appears clockwise (looking along the positive axis), the angle is negative.
 
-- [`Universal Robots`](https://www.universal-robots.com/articles/ur/application-installation/dh-parameters-for-calculations-of-kinematics-and-dynamics/) – refer for more information.
+👉 [`Universal Robots`](https://www.universal-robots.com/articles/ur/application-installation/dh-parameters-for-calculations-of-kinematics-and-dynamics/) – refer for more information.
 
 ## ⚙️ Execution: Follow the steps to launch and run the repository. 🚀
 - Open a new terminal on your laptop (navigate to ~/path_to_your_workspace/src), 
